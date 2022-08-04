@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pla Comunitari Barceloneta</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta
+        content="El Pla Comunitari de la Barceloneta és una xarxa formada per veïnat, associacions, entitats, comerços, serveis municipals i administracions que treballem conjuntament per millorar la qualitat de vida de La Barceloneta."
+        name="description">
+
+    <!--Nocodeapi feeds-->
+    <script type="module"
+        src="https://unpkg.com/@nocodeapi/embed-instagram-feed@latest/embed-instagram-feed.js?module"></script>
+
+    <!--Script Include html-->
+    <script src="js/include-html.js"></script>
+
+    <!-- Favicon -->
+    <link href="img/favicon-96x96.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Carregant...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Header Start -->
+    <!--Topbar-->
+    <div class="sticky-top" w3-include-html="layouts/topbar.html"></div>
+    <script>
+        includeHTML();
+    </script>
+
+    <!--Navbar-->
+    <div class="sticky-top" w3-include-html="layouts/navbar.html"></div>
+    <script>
+        includeHTML();
+    </script>
+    <!-- Header End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header-aba py-5 mb-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">ABA Associació Barceloneta Alerta</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Inici</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">ABA</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Feature Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <p class="lead ">
+
+                    Petita presentació de l'Associació. <br>
+                    Història breu de l'associació.
+                </p>
+
+            </div>
+        </div>
+
+        <!--PROJECTES-->
+        <div class="row mt-5">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-9 border-start text-blue border-5">
+                <!--PROJECTES-->
+                <div class="">
+
+                    <!--CONTACTE-->
+                    <div>
+                        <!-- Button trigger modal CONTACTE -->
+                        <div class="col-lg-3 p-0">
+                            <button type="button" class="btn btn-succes text-start m-0 p-0" data-bs-toggle="modal"
+                                data-bs-target="#garbaModal">
+                                <h3 style="color: #ffc720">Contacte <i class="far fa-comment-dots"></i></h3>
+                            </button>
+                        </div>
+
+                        <!-- Modal CONTACTE-->
+                        <div class="modal fade" id="garbaModal" tabindex="-1" aria-labelledby="garbaModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="garbaModalLabel">Contacte ABA</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-footer">
+
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <!--Formulari de contacte-->
+                                        <div w3-include-html="layouts/formulari-garba.html"></div>
+                                        <script>
+                                            includeHTML();
+                                        </script>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h1 class="display-5 my-4"></h1>
+                    <p class="">
+                    </p>
+                    <!--BOTONS (PILLS)-->
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true"><i class="fas fa-times"></i></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Objectius i Valors</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile2-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile2" type="button" role="tab" aria-controls="pills-profile2"
+                                aria-selected="false">Comptes</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile3-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile3" type="button" role="tab" aria-controls="pills-profile3"
+                                aria-selected="false">Estatuts</button>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--CONTINGUT BOTONS (PILLS)-->
+                <div class="tab-content" id="pills-tabContent">
+                    <!--TANCA-->
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                    </div>
+                    <!--Objectius i Valors-->
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <!--Contingut-->
+                        <div class="">
+                            <img class="w-25 me-4 mb-4" src="img/aba-logo.jpg" alt="">
+                            <img src="img/medalla.png" class="w-25" alt="">
+                            
+                            <h3 class="text-blue">Objectius de l'associació</h3>
+                            <ul>
+                                <li>Promoure projectes de treball i estudi comunitari al barri de la Barceloneta i,
+                                    concretament, per a la gent gran.
+                                </li>
+                                <li>Facilitar i mantenir relacions amb les administracions públiques i amb qualsevol
+                                    altre
+                                    organisme, públic o privat, en qualsevol assumpte que pugui interessar a
+                                    l’Associació o a
+                                    les
+                                    entitats sòcies.
+                                </li>
+                                <li>
+                                    Coordinar les activitats del voluntariat, de les entitats associades o de les que
+                                    puguin
+                                    associar-
+                                    se en relació als projectes propis de l’Associació.
+                                </li>
+                                <li>
+                                    Qualsevol mena d'activitats de promoció i desenvolupament en el barri de La
+                                    Barceloneta
+                                    que
+                                    pugui acordar en el futur, incloent-hi la posada en marxa d'activitats econòmiques
+                                    relacionades amb aquelles activitats.
+                                </li>
+                                <li>
+                                    Promoció de la inserció laboral al barri, creació d'eines de formació de persones en
+                                    risc
+                                    d'exclusió social, així com accions per facilitar la incorporació dels joves al
+                                    mercat
+                                    laboral.
+                                </li>
+                            </ul> <br>
+                            <b>Per aconseguir les seves finalitats es valdrà dels mitjans i recursos lícits que en cada
+                                cas
+                                consideri més adients i realitzarà les activitats següents:</b> <br><br>
+
+                            <ul>
+                                <li>
+                                    <b>Promoure campanyes informatives i divulgatives</b> amb edició i difusió de
+                                    comunicacions
+                                    en
+                                    els
+                                    formats i mitjans actuals i/o futurs que determini com més adients en cada moment
+                                    (p. ex.
+                                    circulars, publicacions, etc., en format físic o format electrònic) i amb la
+                                    periodicitat
+                                    que
+                                    consideri més idònia.
+                                </li>
+                                <li>
+                                    <b>Promoure punts d'informació, comparèixer en mitjans de comunicació</b> o tribunes
+                                    públiques i
+                                    efectuar altres activitats anàlogues i/o similars que estimi oportunes.
+                                </li>
+                                <li>
+                                    <b>Promoure, participar i col·laborar en la creació de projectes relacionats amb
+                                        activitats
+                                        econòmiques</b>, tenint en compte sempre i en tot cas el marc legal que
+                                    correspongui,
+                                    que <b>no
+                                        existeixi ànim de lucre i que els beneficis es destinin a enriquir la xarxa
+                                        social
+                                        del barri</b>
+                                    o a
+                                    altres projectes de l'Associació.
+                                </li>
+                                <li>
+                                    Realitzar accions amb els seus propis medis o en col·laboració amb altres entitats
+                                    afins,
+                                    de
+                                    <b>formació, inserció laboral, desenvolupament local, inclusió social i de qualsevol
+                                        altre
+                                        tipus que
+                                        afavoreixen l'enfortiment social del barri, la seva cohesió, la lluita pels
+                                        drets
+                                        socials</b> i en general
+                                    la defensa dels valors de l'Associació.
+                                </li>
+                            </ul>
+                            <br>
+                            <h3 class="text-blue">Valors de l'associació</h3>
+                            <ol>
+                                <li>
+                                    <b>ABA promou la justícia, la solidaritat i el “bon veïnatge”</b>.
+                                    Des de la seva fundació, la promoció dels valors de solidaritat, suport mutu i “bon
+                                    veïnatge” són el motor de l’associació; els valors que més la identifiquen. La
+                                    solidaritat
+                                    veïnal està fonamentada en la defensa de la justícia i els drets socials.
+                                    Històricament, la
+                                    nostra associació ha posat el focus, de manera prioritària, en la preocupació per la
+                                    gent gran del barri, sense deixar de banda els altres sectors de població.
+                                </li> <br>
+                                <li>
+                                    <b>ABA promou el desenvolupament comunitari</b>.
+                                    La nostra associació participa i promou activament, a través de l'eina del Pla
+                                    Comunitari, el treball en xarxa i la col·laboració de tots els agents socials (veïns
+                                    i
+                                    veïnes, associacions, serveis públics, institucions i empreses) per a la promoció
+                                    del
+                                    desenvolupament comunitari. L'enfortiment de la comunitat, el barri, per articular
+                                    respostes col·lectives orientades al bé comú és un valor fonamental de l'entitat.
+                                </li> <br>
+                                <li>
+                                    <b>ABA és una entitat laica i no té filiació política</b>.
+                                    Les diferents conviccions religioses i polítiques que posseïm els participants en el
+                                    projecte no deuen incidir en la nostra comesa, pel que no podem realitzar cap tipus
+                                    de
+                                    proselitisme religiós o polític en relació amb qualsevol de les persones que
+                                    participen
+                                    en els nostres projectes, ja siguin beneficiaris, voluntaris, assalariats, membres
+                                    d'altres
+                                    entitats o representants de l'administració.
+                                </li> <br>
+                                <li>
+                                    <b>ABA aposta per la defensa de la diversitat i la dignitat de totes les
+                                        persones</b>.
+                                    Apostem per una societat plural i diversa, rica i canviant que constitueix el barri
+                                    de la
+                                    Barceloneta.
+                                </li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <!--Comptes-->
+                    <div class="tab-pane fade" id="pills-profile2" role="tabpanel" aria-labelledby="pills-profile2-tab">
+                        <!--Contingut-->
+                        <div class="">
+                            Comptes
+                        </div>
+                    </div>
+                    <!--Estatuts-->
+                    <div class="tab-pane fade" id="pills-profile3" role="tabpanel" aria-labelledby="pills-profile3-tab">
+                        <!--Contingut-->
+                        <div class="">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+                                            style="width: 60px; height: 60px;">
+                                            <a href="pdf/aba-estatuts.pdf"><i
+                                                    class="fa fa-file-pdf fa-2x text-primary"></i></a>
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="mb-2">Estatuts</p>
+                                            <h5 class="mb-0 text-blue">ABA</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+
+        <!-- Footer Start -->
+        <div w3-include-html="layouts/footer.html"></div>
+        <script>
+            includeHTML();
+        </script>
+        <!-- Footer End -->
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i
+                class="bi bi-arrow-up"></i></a>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+</body>
+
+</html>

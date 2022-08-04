@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <!--Recaptcha-->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        function onSubmit(token) {
+          document.getElementById("contacte").submit();
+        }
+      </script>
+    </head>
+    <body>
+        <!--FORMULARI-->
+<!--he afegit atr name i pattern per validació de dades-->
+<!--he creat 2 php per enviament dades a piol@placomun... CANVIAR!! falten fer les proves amb el servidor provar quin dels dos va millor-->
+<form id="contacte" name="contacte" action="formulari-contacte.php" method="post" >
+    <div class="row g-3">
+        <div class="col-12 col-sm-6">
+            <input name="Nom" required type="text" class="form-control border-0" placeholder="Nom"
+                pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" style="height: 55px;">
+        </div>
+        <div class="col-12 col-sm-6">
+            <input name="Email" required type="email" class="form-control border-0" placeholder="Email"
+                pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" style="height: 55px;">
+        </div>
+        <div class="col-12 col-sm-6">
+            <input type="tel" name="Telèfon" class="form-control border-0" placeholder="Telèfon (opcional)"
+                style="height: 55px;">
+        </div>
+
+
+        <div class="col-12 col-sm-6">
+            <select name="Assumpte" required class="form-select border-0" style="height: 55px;">
+                <option selected>Indica l'assumpte</option>
+                <option value="PIOL">Ocupació formació-Economia local-ESS</option>
+                <option value="PIOL">Salut comunitària</option>
+                <option value="Casal Comunitari">Habitatge</option>
+                <option value="Barceloneta diversa">Justícia social</option>
+                <option value="Altres">Educació comunitària</option>
+                <option value="Altres">Suport mutu</option>
+                <option value="Altres">Altres</option>
+            </select>
+        </div>
+
+        <div class="col-12">
+            <textarea name="Missatge" required class="form-control border-0"
+                placeholder="Escriu el teu missatge"></textarea>
+        </div>
+        
+        <div class="col-12">
+            <button class="g-recaptcha btn btn-primary w-100 py-3" data-sitekey="6LfyKkcgAAAAAObAb-0010MAlPaWQNNhDzH-sKMp" 
+            data-callback='onSubmit' 
+            data-action='submit'>Enviar</button>
+        </div>
+        
+    </div>
+</form>
+    </body>
+</html>
+
