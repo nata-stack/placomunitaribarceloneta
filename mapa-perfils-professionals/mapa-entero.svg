@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" viewBox="0 0 1521 967" xml:space="preserve" class="production"><style>#items &gt; * {transition: fill 0.2s, fill-opacity 0.2s, stroke 0.2s, stroke-opacity 0.2s;cursor: pointer;}body {margin:0;padding:0;}
+/**/
+#items &gt; #marker-3{fill:#04d69e;fill-opacity:0.00;stroke:;stroke-opacity:0.50}
+#items &gt; #marker-3:hover{fill:#f5d713;fill-opacity:0.00;stroke:none;stroke-opacity:0.5}
+#items &gt; #marker-3.active{fill:#06d79d;fill-opacity:0.60;stroke:;stroke-opacity:0.75}
+
+#items &gt; #marker-5{fill:#04d69e;fill-opacity:0.00;stroke:;stroke-opacity:0.50}
+#items &gt; #marker-5:hover{fill:#f5d713;fill-opacity:0.00;stroke:none;stroke-opacity:0.5}
+#items &gt; #marker-5.active{fill:#06d79d;fill-opacity:0.60;stroke:;stroke-opacity:0.75}
+
+#items &gt; #polygon-8{fill:#04d69e;fill-opacity:0.00;stroke:none;stroke-opacity:0.50}
+#items &gt; #polygon-8:hover{fill:#f5d713;fill-opacity:0.00;stroke:none;stroke-opacity:0.5}
+#items &gt; #polygon-8.active{fill:#04d69e;fill-opacity:0.00;stroke:;stroke-opacity:0.75}</style><image overflow="visible" width="1521" height="967" xlink:href="https://placomunitaribarceloneta.org/mapa-perfils-professionals/mapa-entero.png"></image><g id="items" class=""><path id="marker-3" d="M4 12 A12 12 0 0 1 28 12 C28 20, 16 32, 16 32 C16 32, 4 20 4 12 M11 12 A5 5 0 0 0 21 12 A5 5 0 0 0 11 12 Z" transform="translate(723.75,115.07) scale(1.3225,1.18125)"></path><path id="marker-5" d="M4 12 A12 12 0 0 1 28 12 C28 20, 16 32, 16 32 C16 32, 4 20 4 12 M11 12 A5 5 0 0 0 21 12 A5 5 0 0 0 11 12 Z" transform="translate(569.03,227.25) scale(1.4833333333333334,1.423125)"></path><polygon id="polygon-8" points=" 529.16,324.48 529.16,337.98 500.24,374.61 563.86,378.46" transform="translate(0,0) scale(1,1)"></polygon></g><script id="data-script" type="text/javascript">var pictogon_image_data = '{"id":"e73a4044","#marker-3":{"click":"redirect","hover":"ttooltip","link":"https://placomunitaribarceloneta.org/mapa-perfils-professionals/mariner.png","title":"Mariner","content":"","target":"_blank"},"#marker-5":{"click":"redirect","hover":"ttooltip","link":"https://placomunitaribarceloneta.org/mapa-perfils-professionals/educacio-ambiental.png","title":"educacio-ambiental","content":"","target":"_blank"},"#polygon-8":{"click":"redirect","hover":"ttooltip","link":"https://placomunitaribarceloneta.org/mapa-perfils-professionals/piol.png.svg","title":"PIOL","content":"","target":"_self"}}';</script><g id="board"></g></svg>
