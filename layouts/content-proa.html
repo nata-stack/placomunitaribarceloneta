@@ -1,23 +1,6 @@
 <!--FORMULARI DE CONTACTE-->
-<div class="row p-0">
+<div class="row p-0 align-items-end">
     <hr>
-    <div class="col-lg-3 p-0">
-        <!-- Button trigger modal CONTACTE -->
-        <button type="button" class="btn btn-succes text-start" data-bs-toggle="modal" data-bs-target="#proaModal">
-            <h3 style="color: #ffc720">Contacte <i class="far fa-comment-dots"></i></h3>
-        </button>
-    </div>
-
-    <!-- Button INSTAGRAM -->
-    <div class="col-lg-3 p-0">
-        <button type="button" class="btn btn-succes text-start">
-            <a href="https://www.instagram.com/barcelonetaproalamar/">
-                <h3 style="color: #ffc720">Instagram
-                    <i class="fab fa-instagram"></i>
-                </h3>
-            </a>
-        </button>
-    </div>
 
     <!-- Button MAPA DE PERFILS -->
     <div class="col-lg-3 p-0">
@@ -32,10 +15,26 @@
 
     <!-- Button PARLEN DE NOSALTRES -->
     <div class="col-lg-3 p-0">
+        <button type="button" class="btn btn-succes text-start" data-bs-toggle="modal" data-bs-target="#parlenModal">
+            <h3 style="color: #ffc720">Parlen de nosaltres
+                <i class="far fa-newspaper"></i>
+            </h3>
+        </button>
+    </div>
+
+    <div class="col-lg-3 p-0">
+        <!-- Button trigger modal CONTACTE -->
+        <button type="button" class="btn btn-succes text-start" data-bs-toggle="modal" data-bs-target="#proaModal">
+            <h3 style="color: #ffc720">Contacte <i class="far fa-comment-dots"></i></h3>
+        </button>
+    </div>
+
+    <!-- Button INSTAGRAM -->
+    <div class="col-lg-3 p-0">
         <button type="button" class="btn btn-succes text-start">
-            <a href="http://127.0.0.1:5500/noticies.html" target="_blank">
-                <h3 style="color: #ffc720">Parlen de nosaltres
-                    <i class="far fa-newspaper"></i>
+            <a href="https://www.instagram.com/barcelonetaproalamar/">
+                <h3 style="color: #ffc720">Instagram
+                    <i class="fab fa-instagram"></i>
                 </h3>
             </a>
         </button>
@@ -61,6 +60,29 @@
                     <script>
                         includeHTML();
                     </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal PARLEN DE NOSALTRES-->
+    <div class="modal fade" id="parlenModal" tabindex="-1" aria-labelledby="parlenModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="parlenModalLabel">Parlen de nosaltres</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-footer">
+                    <p></p>
+                </div>
+                <div class="modal-body">
+                    <!--PARLEN DE NOSALTRES blogger incrustat-->
+                    <div class="container-fluid p-0 pb-5">
+                        <embed
+                            src="https://pcbarceloneta.blogspot.com/2022/07/accions-en-marxa-barceloneta-diversa.html"
+                            type="text/html" width="100%" height="1200">
+                    </div>
                 </div>
             </div>
         </div>
@@ -279,7 +301,7 @@ Nou pacte. <br><br>
                             </a>
                         </button>
 
-                       
+
 
                     </li>
                 </ul>
